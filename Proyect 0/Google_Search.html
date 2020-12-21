@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <style>
+            .busqueda {
+                text-align: center;
+                vertical-align: middle;
+                font-size: xx-large;
+            }
+            .links {
+                text-align: right;
+                vertical-align: text-top;
+                margin: 20px;
+                font-size: large;
+                height: 100px;
+            }
+            input {
+                display: inline-block;
+                width: 35%;
+                height: 30px;
+            }
+            input:hover {
+                height: 35.2px;
+            }
+            .redondear {
+                border-radius: 20px;
+                border-color:rgb(216, 212, 212);
+            }
+            .redondear:hover {
+                border-color:rgb(161, 160, 160);
+            }
+            .boton {
+                display: inline-block;
+                height: 30px;
+                width: 120px;
+            }
+            span {
+                font-size: 60px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class='links'>
+            <a href='Google_Image_Search.html'>Google Images Search</a>
+            <br><br>
+            <a href='Google_Advance_Search.html'>Google Advance Search</a>
+        </div>
+        <div class='busqueda'>
+            <p>
+                <span style='color: blue'>G</span>
+                <span style='color: red'>o</span>
+                <span style='color: yellow'>o</span>
+                <span style='color: blue'>g</span>
+                <span style='color: green'>l</span>
+                <span style='color: red'>e</span>
+              </p>
+            <form action="https://google.com/search">
+                <input class='redondear'type="text" name="q"><br>
+                <input class='boton'type="submit" value='Google Search'>
+                <input class='boton'type='submit' name='btnI' value='I’m Feeling Lucky'>
+            </form>
+        </div>
+    </body>
+</html> 

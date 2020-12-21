@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Images Search</title>
+        <style>
+            .busqueda {
+                text-align: center;
+                vertical-align: middle;
+                font-size: xx-large;
+            }
+            .links {
+                text-align: right;
+                vertical-align: text-top;
+                margin: 20px;
+                font-size: large;
+                height: 100px;
+            }
+            input {
+                display: inline-block;
+                width: 35%;
+                height: 30px;
+            }
+            input:hover {
+                height: 35.2px;
+            }
+            .boton {
+                display: inline-block;
+                height: 30px;
+                width: 200px;
+            }
+            .redondear {
+                border-radius: 20px;
+                border-color:rgb(216, 212, 212);
+            }
+            .redondear:hover {
+                border-color:rgb(161, 160, 160);
+            }
+            span {
+                font-size: 60px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class='links'>
+            <a href='Google_Search.html'>Go back to Google Search</a>
+        </div>
+        <div class='busqueda'>
+            <p>
+                <span style='color: blue'>G</span>
+                <span style='color: red'>o</span>
+                <span style='color: yellow'>o</span>
+                <span style='color: blue'>g</span>
+                <span style='color: green'>l</span>
+                <span style='color: red'>e</span>
+                <sub style='color: rgb(0, 68, 255)'>images</sub>
+              </p>
+            <form action="https://google.com/search">
+                <input class='redondear'type="text" name="q"><br>
+                <input class='boton' type="submit" value="Google Images Search">
+                <input type='hidden' name='tbm' value='isch'>
+                <input type='hidden' name='biw' value='1366'>
+                <input type='hidden' name='bih' value='657'>
+        </div>
+    </body>
+</html> 
